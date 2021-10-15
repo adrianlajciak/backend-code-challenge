@@ -1,11 +1,19 @@
-# GAN Integrity backend code challenge
+# NAV Integrity backend coding challenge 
 
-The script `index.js` uses a local api to perform various operations on a set of cities. Your task is to implement an api so that the script runs successfully all the way to the end.
+### Steps
 
-Run `npm install` and `npm run start` to start the script.
-
-Your api can load the required data from [here](addresses.json).
-
-In the distance calculations you can assume the earth is a perfect sphere and has a radius is 6371 km.
-
-Once you are done, please provide us with a link to a git repo with your code, ready to run.
+1. Install Node.js and NPM on specific required versions:
+ - node version 14.x.x
+ - npm version 6.x
+2. Install JavaScript dependencies
+     ```sh
+   npm install
+   ``` 
+3. Run server 
+     ```sh
+   npm start
+   ``` 
+4. Run index.js file 
+    ```sh
+   npm test
+   ``` 
