@@ -4,12 +4,20 @@
   "description": "GAN Integrity backend code challenge",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node app.js",
+    "test": "node index.js"
   },
-  "author": "GAN Integrity",
+  "author": "Adrian Lajciak",
   "license": "ISC",
   "dependencies": {
     "fs-extra": "7.0.0",
-    "node-fetch": "^2.6.1"
+    "http": "0.0.1-security",
+    "kcors": "^2.2.2",
+    "koa": "^2.13.3",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.1.1",
+    "node-fetch": "^2.6.1",
+    "pino": "^7.0.1",
+    "stream": "0.0.2"
   }
 }
